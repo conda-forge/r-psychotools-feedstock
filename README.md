@@ -3,6 +3,7 @@ About r-psychotools-feedstock
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-psychotools-feedstock/blob/main/LICENSE.txt)
 
+
 About r-psychotools
 -------------------
 
@@ -11,6 +12,7 @@ Home: https://CRAN.R-project.org/package=psychotools
 Package license: GPL-2.0-or-later
 
 Summary: Infrastructure for psychometric modeling such as data classes (for item response data and paired comparisons), basic model fitting functions (for Bradley-Terry, Rasch, parametric logistic IRT, generalized partial credit, rating scale, multinomial processing tree models), extractor functions for different types of parameters (item, person, threshold, discrimination, guessing, upper asymptotes), unified inference and visualizations, and various datasets for illustration.  Intended as a common lightweight and efficient toolbox for psychometric modeling and a common building block for fitting psychometric mixture models in package "psychomix" and trees based on psychometric models in package "psychotree".
+
 About r-psychotools
 -------------------
 
@@ -153,7 +155,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
