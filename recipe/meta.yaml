@@ -1,4 +1,4 @@
-{% set version = "0.7-5" %}
+{% set version = "0.7-6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/psychotools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/psychotools/psychotools_{{ version }}.tar.gz
-  sha256: 7bb03c7fec64df02a9c6731e470dfdcaf4eae683641fab5423d387dc73444a32
+  sha256: 7c4d43ea7f0e69602d99de48b3328b1b560e12444bae4d58907197a63841fecb
 
 build:
   number: 0
@@ -41,9 +41,9 @@ test:
 about:
   home: https://CRAN.R-project.org/package=psychotools
   license: GPL-2.0-or-later
-  summary: Infrastructure for psychometric modeling such as data classes (for item response data and paired comparisons), basic model fitting functions (for Bradley-Terry, Rasch, parametric logistic IRT, generalized partial credit, rating scale, multinomial processing tree models), extractor functions for different types
-    of parameters (item, person, threshold, discrimination, guessing, upper asymptotes), unified inference and visualizations, and various datasets for illustration.  Intended as a common lightweight and efficient toolbox for psychometric modeling and a common building block for fitting psychometric mixture models in package
-    "psychomix" and trees based on psychometric models in package "psychotree".
+  summary: Infrastructure for psychometric modeling such as data classes (for item response data and paired comparisons), basic model fitting functions (for Bradley-Terry, Rasch, parametric logistic IRT, generalized partial credit, rating scale, multinomial processing tree models), extractor functions for different 
+    types of parameters (item, person, threshold, discrimination, guessing, upper asymptotes), unified inference and visualizations, and various datasets for illustration.  Intended as a common lightweight and efficient toolbox for psychometric modeling and a common building block for fitting psychometric mixture 
+    models in package "psychomix" and trees based on psychometric models in package "psychotree".
   license_family: GPL3
   license_file:
     - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3
